@@ -5,4 +5,14 @@ edition = "2021"
 
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 
+[lib]
+name = "beaver"
+path = "src/lib.rs"
+
 [dependencies]
+actix = "0.13.1"
+actix-broker = "0.4.3"
+actix-rt = "2.9.0"
+actix-telepathy = "0.6.0"
+log = "0.4.20"
+serde = "1.0.193"
